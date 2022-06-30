@@ -36,4 +36,7 @@ new_y = 7.0
 prediction = model.predict([new_y])[0]
 print(prediction)
 
-## EXTRA If everything went as expected you should see a prediction value very close to 4. If not, try adjusting your code before submitting the assignment. Notice that you can play around with the value of new_y to get different predictions. In general you should see that the network was able to learn the linear relationship between x and y, so if you use a value of 8.0 you should get a prediction close to 4.5 and so on.
+## EXTRA If everything went as expected you should see a prediction 
+# value very close to 4. If not, try adjusting your code before submitting the assignment. 
+# Notice that you can play around with the value of new_y to get different predictions.
+# In general you should see that the network was able to learn the linear relationship between x and y, so if you use a value of 8.0 you should get a prediction close to 4.5 and so on.
